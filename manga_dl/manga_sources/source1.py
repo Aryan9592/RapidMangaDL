@@ -383,7 +383,7 @@ class Bato(BaseSource):
                 genres = []
                 tgenres = item.select(".item-genre > span")
                 if tgenres:
-                    genres = [i.text for i in genres]
+                    genres = [i.text for i in tgenres]
 
                 # item-volch latest-chapter
                 latest_chapter = ""
