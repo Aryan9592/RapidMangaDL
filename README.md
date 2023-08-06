@@ -32,7 +32,7 @@ manga-dl
 
 Here's a quick demo:
 
-![CLI](https://github.com/shhossain/RapidMangaDL/raw/main/cli.gif)
+![CLI](https://github.com/shhossain/RapidMangaDL/raw/main/cli_demo.gif)
 
 # Web-based GUI (Graphical User Interface)
 
@@ -46,7 +46,7 @@ manga-dl gui
 
 Here's a sneak peek:
 
-![WEB DEMO](https://github.com/shhossain/RapidMangaDL/raw/main/web_gui.gif)
+![WEB DEMO](https://github.com/shhossain/RapidMangaDL/raw/main/web_demo.gif)
 
 To create a shareable link, you can use the `--share` flag:
 
