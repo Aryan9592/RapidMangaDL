@@ -474,7 +474,7 @@ class Bato(BaseSource):
                 if sdiv:
                     summary = sdiv.text.strip()
 
-            genres = [i for i in infos["Genres"].split(",")]
+            genres = [i.strip() for i in infos["Genres"].split(",")]
             authors = [i for i in infos["Authors"].split(",")]
             artists = [i for i in infos["Artists"].split(",")]
             rank = infos["Rank"]
