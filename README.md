@@ -27,7 +27,7 @@ The Interactive CLI mode provides a user-friendly prompt to search for a manga, 
 To start the Interactive CLI mode, simply run:
 
 ```bash
-manga-dl
+mangadl
 ```
 
 Here's a quick demo:
@@ -41,7 +41,7 @@ The Web-based GUI offers a graphical interface to interact with the application.
 To start the server, run:
 
 ```bash
-manga-dl gui
+mangadl gui
 ```
 
 Here's a sneak peek:
@@ -51,7 +51,7 @@ Here's a sneak peek:
 To create a shareable link, you can use the `--share` flag:
 
 ```bash
-manga-dl gui --share
+mangadl gui --share
 ```
 
 # Command Line Interface (CLI)
@@ -59,13 +59,13 @@ manga-dl gui --share
 The CLI mode allows you to interact with the application using command-line arguments. Here's an example of how you can use it:
 
 ```bash
-manga-dl cli -m https://manganato.com/manga-az963307 -c 1-10 -f epub -q 90
+mangadl cli -m https://manganato.com/manga-az963307 -c 1-10 -f epub -q 90
 ```
 
 You can use the Command Line Interface (CLI) with arguments to initiate a download. Here's a breakdown of the available options:
 
 ```bash
-usage: manga-dl [-h] [-s QUERY] [-m MANGA] [-ss SOURCE] [-c CHAPTERS] [-ex EXCLUDE] [-f {epub,pdf}] [-q QUALITY] [--host HOST] [-p PORT]  [mode]
+usage: mangadl [-h] [-s QUERY] [-m MANGA] [-ss SOURCE] [-c CHAPTERS] [-ex EXCLUDE] [-f {epub,pdf}] [-q QUALITY] [--host HOST] [-p PORT]  [mode]
 
 positional arguments:
   mode                  Mode to run (choices: gui, prompt, cli) [Web ui, Interactive CLI, CLI]

@@ -3,7 +3,7 @@ from setuptools import setup, find_packages
 
 
 package_name = "RapidMangaDL"
-package_version = "0.2.6"
+package_version = "0.2.7"
 package_description = "Swiftly download manga from multiple sources."
 package_author = "sifat"
 package_author_email = "hossain0338@gmail.com"
@@ -56,6 +56,7 @@ setup(
     entry_points={
         "console_scripts": [
             "manga-dl = manga_dl.main:main",
+            "mangadl = manga_dl.main:main",
         ]
     },
     classifiers=classifiers,
